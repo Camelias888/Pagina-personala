@@ -1,0 +1,127 @@
+Am înțeles detaliile tale și voi crea o pagină web simplă, cu secțiuni pentru "Despre mine", "Proiecte" și "Contact". Iată codul pentru pagina ta web:
+
+```html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sava Camelia - Pagina Personală</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('poza1.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .dark {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Sava Camelia</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Despre mine</a></li>
+                    <li><a href="#projects">Proiecte</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Bine ați venit!</h1>
+            <p>Explorați lumea spiritualității, numerologiei și astrologiei cu mine.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Despre mine</h2>
+            <p>Salut! Sunt Sava Camelia, mama a trei copii și pasionată de spiritualitate, creștere personală, numerologie și astrologie. Studiez aceste domenii de peste opt ani și îmi place să ghidez oamenii care vin către mine pentru consultații. Văd lucrurile și situațiile dintr-o perspectivă diferită față de majoritatea oamenilor și îmi place să dau exemple din viața de zi cu zi pentru a ajuta oamenii să înțeleagă mai ușor. De asemenea, îmi place să spun povești sau pilde.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section dark">
+        <div class="container">
+            <h2>Proiecte</h2>
+            <p>Unul dintre proiectele mele este să creez cursuri de numerologie și astrologie pentru a le posta pe site, să scriu o carte de numerologie de curând și desigur să organizez ateliere și consultații.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Pentru a mă contacta, puteți să-mi trimiteți un email la adresa: <a href="mailto:savacamelia37@yahoo.com">savacamelia37@yahoo.com</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Sava Camelia &copy; 2024</p>
+    </footer>
+</body>
+</html>
+```
+
+Acest fișier HTML conține toate secțiunile solicitate și un stil de bază. Poți personaliza stilurile și conținutul în funcție de preferințele tale. De asemenea, va trebui să înlocuiești `poza1.jpg` cu o imagine relevantă pentru secțiunea "showcase".
